@@ -339,6 +339,8 @@ const messageBotIsSelected = computed(() => {
   return favBot?.selected;
 });
 
+const previewMaxHeight = computed(() => store.state.chat.previewMaxHeight);
+
 // Send the prompt when the user presses enter and prevent the default behavior
 // But if the shift, ctrl, alt, or meta keys are pressed, do as default
 function filterEnterKey(event) {
@@ -619,7 +621,7 @@ function pageRight() {
 }
 
 .v-md-editor-preview {
-    max-height: 50vh;
+    max-height: v-bind(previewMaxHeight + 'vh');
     overflow-y: overlay;
 }
 </style>

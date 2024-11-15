@@ -289,6 +289,15 @@ const settings = [
     max: 2000,
     step: 100,
   },
+  {
+    type: Type.Slider,
+    name: "previewMaxHeight",
+    title: "chat.previewMaxHeight",
+    description: "chat.previewMaxHeightDesc",
+    min: 10,
+    max: 500,
+    step: 10,
+  },
 ];
 let editIndex = undefined;
 let isEdit = false;
