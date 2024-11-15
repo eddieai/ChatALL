@@ -240,6 +240,11 @@
     "temperature0": "更具确定性",
     "temperature2": "更具随机性"
   },
+  "deepSeekApi": {
+    "name": "DeepSeek API",
+    "deepseek-chat": "deepseek-chat",
+    "deepseek-coder": "deepseek-coder"
+  },
   "poe": {
     "name": "Poe",
     "beaver": "GPT-4",
