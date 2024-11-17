@@ -50,6 +50,11 @@ export default createStore({
       temperature: 1.0,
       pastRounds: 10,
     },
+    gitHubApi: {
+      apiKey: "",
+      temperature: 1.0,
+      pastRounds: 10,
+    },
     openaiApi: {
       apiKey: "",
       temperature: 1,
@@ -224,6 +229,9 @@ export default createStore({
     },
     setDeepSeekApi(state, values) {
       state.deepSeekApi = { ...state.deepSeekApi, ...values };
+    },
+    setGitHubApi(state, values) {
+      state.gitHubApi = { ...state.gitHubApi, ...values };
     },
     setGeminiApi(state, values) {
       state.geminiApi = { ...state.geminiApi, ...values };

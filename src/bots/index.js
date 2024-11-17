@@ -84,6 +84,13 @@ import GrokBetaAPIBot from "./xai/GrokBetaAPIBot";
 import Grok2APIBot from "./xai/Grok2APIBot";
 import DeepSeekAPICoderBot from "./deepseek/DeepSeekAPICoderBot";
 import DeepSeekAPIChatBot from "./deepseek/DeepSeekAPIChatBot";
+import GitHubAPIGPT4oBot from "./github/GitHubAPIGPT4oBot";
+import GitHubAPIGPT4oMiniBot from "./github/GitHubAPIGPT4oMiniBot";
+import GitHubAPILlama318bBot from "./github/GitHubAPILlama318bBot";
+import GitHubAPILlama3170bBot from "./github/GitHubAPILlama3170bBot";
+import GitHubAPILlama31405bBot from "./github/GitHubAPILlama31405bBot";
+import GitHubAPIMistralLargeBot from "./github/GitHubAPIMistralLargeBot";
+import GitHubAPIMistralNemoBot from "./github/GitHubAPIMistralNemoBot";
 
 const all = [
   Qihoo360AIBrainBot.getInstance(),
@@ -170,6 +177,13 @@ const all = [
   Grok2APIBot.getInstance(),
   DeepSeekAPICoderBot.getInstance(),
   DeepSeekAPIChatBot.getInstance(),
+  GitHubAPIGPT4oBot.getInstance(),
+  GitHubAPIGPT4oMiniBot.getInstance(),
+  GitHubAPILlama318bBot.getInstance(),
+  GitHubAPILlama3170bBot.getInstance(),
+  GitHubAPILlama31405bBot.getInstance(),
+  GitHubAPIMistralLargeBot.getInstance(),
+  GitHubAPIMistralNemoBot.getInstance(),
 ];
 
 const disabled = [
@@ -248,6 +262,13 @@ export const botTags = {
     bots.getBotByClassName("Claude3SonnetBot"),
     bots.getBotByClassName("Claude3OpusBot"),
     bots.getBotByClassName("KimiBot"),
+    bots.getBotByClassName("GitHubAPIGPT4oBot"),
+    bots.getBotByClassName("GitHubAPIGPT4oMiniBot"),
+    bots.getBotByClassName("GitHubAPILlama318bBot"),
+    bots.getBotByClassName("GitHubAPILlama3170bBot"),
+    bots.getBotByClassName("GitHubAPILlama31405bBot"),
+    bots.getBotByClassName("GitHubAPIMistralLargeBot"),
+    bots.getBotByClassName("GitHubAPIMistralNemoBot"),
   ],
   paid: [
     bots.getBotByClassName("ChatGPT4Bot"),
@@ -317,6 +338,13 @@ export const botTags = {
     bots.getBotByClassName("Grok2APIBot"),
     bots.getBotByClassName("DeepSeekAPICoderBot"),
     bots.getBotByClassName("DeepSeekAPIChatBot"),
+    bots.getBotByClassName("GitHubAPIGPT4oBot"),
+    bots.getBotByClassName("GitHubAPIGPT4oMiniBot"),
+    bots.getBotByClassName("GitHubAPILlama318bBot"),
+    bots.getBotByClassName("GitHubAPILlama3170bBot"),
+    bots.getBotByClassName("GitHubAPILlama31405bBot"),
+    bots.getBotByClassName("GitHubAPIMistralLargeBot"),
+    bots.getBotByClassName("GitHubAPIMistralNemoBot"),
   ],
   madeInChina: [
     bots.getBotByClassName("Qihoo360AIBrainBot"),

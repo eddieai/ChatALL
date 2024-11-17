@@ -127,6 +127,7 @@ import ChatGLMBotSettings from "./BotSettings/ChatGLMBotSettings.vue";
 import CohereAPIBotSettings from "./BotSettings/CohereAPIBotSettings.vue";
 import KimiBotSettings from "./BotSettings/KimiBotSettings.vue";
 import DeepSeekAPIBotSettings from "./BotSettings/DeepSeekAPIBotSettings.vue";
+import GitHubAPIBotSettings from "./BotSettings/GitHubAPIBotSettings.vue";
 
 import { resolveTheme, applyTheme, Mode } from "../theme";
 import ClaudeAPIBotSettings from "./BotSettings/ClaudeAPIBotSettings.vue";
@@ -155,6 +156,7 @@ const botSettings = [
   { brand: "claudeApi", component: ClaudeAPIBotSettings },
   { brand: "cohereApi", component: CohereAPIBotSettings },
   { brand: "deepSeekApi", component: DeepSeekAPIBotSettings },
+  { brand: "gitHubApi", component: GitHubAPIBotSettings },
   { brand: "falcon", component: Falcon180bBotSettings },
   { brand: "geminiApi", component: GeminiAPIBotSettings },
   { brand: "gradio", component: GradioAppBotSettings },
