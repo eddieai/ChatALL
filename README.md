@@ -173,11 +173,15 @@ Build for your current platform:
 npm run electron:build
 ```
 
-Build for all platforms:
+Build for Windows:
 
 ```bash
-npm run electron:build -- -wml --x64 --arm64
+npm run electron:build -- --win --x64
 ```
+
+Note:
+- Build for Windows requires [wine](https://www.winehq.org/)
+- [Installation steps for Ubuntu](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu)
 
 ## Credits
 
