@@ -90,7 +90,9 @@
     "botResponseDesc": "la respuesta seleccionada",
     "loading": "Cargando...",
     "updateDebounceInterval": "Intervalo de actualización de mensajes con debounce (milisegundos)",
-    "updateDebounceIntervalDesc": "El valor controla la velocidad de actualización de mensajes cuando el bot de IA responde. Un valor más alto retrasa el procesamiento de mensajes y los actualiza todos a la vez, lo cual es más eficiente. Un valor más bajo actualiza los mensajes más rápido, pero puede causar problemas de rendimiento."
+    "updateDebounceIntervalDesc": "El valor controla la velocidad de actualización de mensajes cuando el bot de IA responde. Un valor más alto retrasa el procesamiento de mensajes y los actualiza todos a la vez, lo cual es más eficiente. Un valor más bajo actualiza los mensajes más rápido, pero puede causar problemas de rendimiento.",
+    "confirmDeleteAllChatHistory": "¿Está seguro de que desea eliminar todo el historial de chat? Esta acción no se puede deshacer.",
+    "promptTitle": "Entrada"
   },
   "bot": {
     "creatingConversation": "Creando conversación...",

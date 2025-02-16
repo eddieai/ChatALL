@@ -90,7 +90,9 @@
     "botResponseDesc": "la risposta selezionata",
     "loading": "Caricamento...",
     "updateDebounceInterval": "Intervallo di aggiornamento dei messaggi (millisecondi)",
-    "updateDebounceIntervalDesc": "Il valore controlla la velocità di aggiornamento dei messaggi quando il bot AI risponde. Un valore più alto ritarda l'elaborazione dei messaggi e li aggiorna tutti in una volta, il che è più efficiente. Un valore più basso aggiorna i messaggi più velocemente, ma può causare problemi di prestazioni."
+    "updateDebounceIntervalDesc": "Il valore controlla la velocità di aggiornamento dei messaggi quando il bot AI risponde. Un valore più alto ritarda l'elaborazione dei messaggi e li aggiorna tutti in una volta, il che è più efficiente. Un valore più basso aggiorna i messaggi più velocemente, ma può causare problemi di prestazioni.",
+    "newChat": "Nuova Chat",
+    "promptTitle": "Prompt"
   },
   "bot": {
     "creatingConversation": "Creazione della conversazione in corso...",
