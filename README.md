@@ -167,21 +167,19 @@ npm run electron:serve
 
 ### Build
 
-Build for your current platform:
-
+#### Build for your current platform:
 ```bash
 npm run electron:build
 ```
 
-Build for Windows:
+#### Build for Windows:
+*Notes:*
+- Build for Windows can NOT work in WSL
+- Build for Windows under Linux requires [wine](https://www.winehq.org/), [Installation steps for Ubuntu](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu)
 
 ```bash
 npm run electron:build -- --win --x64
 ```
-
-Note:
-- Build for Windows requires [wine](https://www.winehq.org/)
-- [Installation steps for Ubuntu](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu)
 
 ## Credits
 
