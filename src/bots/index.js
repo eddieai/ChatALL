@@ -90,7 +90,7 @@ import ClaudeAPISonnetBot from "./anthropic/ClaudeAPISonnetBot";
 import ClaudeAPIHaikuBot from "./anthropic/ClaudeAPIHaikuBot";
 import GrokBetaAPIBot from "./xai/GrokBetaAPIBot";
 import Grok2APIBot from "./xai/Grok2APIBot";
-import DeepSeekAPICoderBot from "./deepseek/DeepSeekAPICoderBot";
+import DeepSeekAPIReasonerBot from "./deepseek/DeepSeekAPIReasonerBot";
 import DeepSeekAPIChatBot from "./deepseek/DeepSeekAPIChatBot";
 import GitHubAPIGPT4oBot from "./github/GitHubAPIGPT4oBot";
 import GitHubAPIGPT4oMiniBot from "./github/GitHubAPIGPT4oMiniBot";
@@ -98,7 +98,7 @@ import GitHubAPILlama318bBot from "./github/GitHubAPILlama318bBot";
 import GitHubAPILlama3170bBot from "./github/GitHubAPILlama3170bBot";
 import GitHubAPILlama31405bBot from "./github/GitHubAPILlama31405bBot";
 import GitHubAPIMistralLargeBot from "./github/GitHubAPIMistralLargeBot";
-import GitHubAPIMistralNemoBot from "./github/GitHubAPIMistralNemoBot";
+import GitHubAPICodestralBot from "./github/GitHubAPICodestralBot";
 
 const all = [
   Qihoo360AIBrainBot.getInstance(),
@@ -191,7 +191,7 @@ const all = [
   YouChatBot.getInstance(),
   GrokBetaAPIBot.getInstance(),
   Grok2APIBot.getInstance(),
-  DeepSeekAPICoderBot.getInstance(),
+  DeepSeekAPIReasonerBot.getInstance(),
   DeepSeekAPIChatBot.getInstance(),
   GitHubAPIGPT4oBot.getInstance(),
   GitHubAPIGPT4oMiniBot.getInstance(),
@@ -199,7 +199,7 @@ const all = [
   GitHubAPILlama3170bBot.getInstance(),
   GitHubAPILlama31405bBot.getInstance(),
   GitHubAPIMistralLargeBot.getInstance(),
-  GitHubAPIMistralNemoBot.getInstance(),
+  GitHubAPICodestralBot.getInstance(),
 ];
 
 const disabled = [
@@ -284,7 +284,7 @@ export const botTags = {
     bots.getBotByClassName("GitHubAPILlama3170bBot"),
     bots.getBotByClassName("GitHubAPILlama31405bBot"),
     bots.getBotByClassName("GitHubAPIMistralLargeBot"),
-    bots.getBotByClassName("GitHubAPIMistralNemoBot"),
+    bots.getBotByClassName("GitHubAPICodestralBot"),
   ],
   paid: [
     bots.getBotByClassName("ChatGPT4Bot"),
@@ -319,7 +319,7 @@ export const botTags = {
     bots.getBotByClassName("Gemma7bItBot"),
     bots.getBotByClassName("Claude3SonnetBot"),
     bots.getBotByClassName("Claude3OpusBot"),
-    bots.getBotByClassName("DeepSeekAPICoderBot"),
+    bots.getBotByClassName("DeepSeekAPIReasonerBot"),
     bots.getBotByClassName("DeepSeekAPIChatBot"),
   ],
   api: [
@@ -360,7 +360,7 @@ export const botTags = {
     bots.getBotByClassName("Mixtral8x7bGroqAPIBot"),
     bots.getBotByClassName("GrokBetaAPIBot"),
     bots.getBotByClassName("Grok2APIBot"),
-    bots.getBotByClassName("DeepSeekAPICoderBot"),
+    bots.getBotByClassName("DeepSeekAPIReasonerBot"),
     bots.getBotByClassName("DeepSeekAPIChatBot"),
     bots.getBotByClassName("GitHubAPIGPT4oBot"),
     bots.getBotByClassName("GitHubAPIGPT4oMiniBot"),
@@ -368,7 +368,7 @@ export const botTags = {
     bots.getBotByClassName("GitHubAPILlama3170bBot"),
     bots.getBotByClassName("GitHubAPILlama31405bBot"),
     bots.getBotByClassName("GitHubAPIMistralLargeBot"),
-    bots.getBotByClassName("GitHubAPIMistralNemoBot"),
+    bots.getBotByClassName("GitHubAPICodestralBot"),
   ],
   madeInChina: [
     bots.getBotByClassName("Qihoo360AIBrainBot"),
@@ -384,7 +384,7 @@ export const botTags = {
     bots.getBotByClassName("ChatGLM6bBot"),
     bots.getBotByClassName("ChatGLM36bBot"),
     bots.getBotByClassName("KimiBot"),
-    bots.getBotByClassName("DeepSeekAPICoderBot"),
+    bots.getBotByClassName("DeepSeekAPIReasonerBot"),
     bots.getBotByClassName("DeepSeekAPIChatBot"),
   ],
 };
