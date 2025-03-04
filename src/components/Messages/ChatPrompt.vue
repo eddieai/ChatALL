@@ -81,5 +81,6 @@ function copyToClipboard() {
   font-size: 1rem;
   padding: 0;
   margin-bottom: 8px;
+  background-color: lightgray;
 }
 </style>
