@@ -59,7 +59,7 @@ function copyToClipboard() {
 }
 
 .prompt {
-  background-color: rgb(var(--v-theme-prompt));
+  background-color: rgb(67, 68, 71);
   width: fit-content;
   grid-column: 1 / span var(--columns);
 }
