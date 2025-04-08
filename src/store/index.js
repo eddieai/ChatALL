@@ -45,6 +45,11 @@ export default createStore({
       temperature: 0.8,
       pastRounds: 5,
     },
+    openRouterApi: {
+      apiKey: "",
+      temperature: 0.7,
+      pastRounds: 10,
+    },
     deepSeekApi: {
       apiKey: "",
       temperature: 1.0,
@@ -277,6 +282,9 @@ export default createStore({
     },
     setCohereApi(state, values) {
       state.cohereApi = { ...state.cohereApi, ...values };
+    },
+    setOpenRouterApi(state, values) {
+      state.openRouterApi = { ...state.openRouterApi, ...values };
     },
     setPerplexity(state, values) {
       state.perplexity = { ...state.perplexity, ...values };
