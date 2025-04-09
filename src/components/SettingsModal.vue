@@ -128,6 +128,7 @@ import CohereAPIBotSettings from "./BotSettings/CohereAPIBotSettings.vue";
 import KimiBotSettings from "./BotSettings/KimiBotSettings.vue";
 import DeepSeekAPIBotSettings from "./BotSettings/DeepSeekAPIBotSettings.vue";
 import GitHubAPIBotSettings from "./BotSettings/GitHubAPIBotSettings.vue";
+import OpenRouterAPIBotSettings from "./BotSettings/OpenRouterAPIBotSettings.vue";
 
 import { resolveTheme, applyTheme, Mode } from "../theme";
 import ClaudeAPIBotSettings from "./BotSettings/ClaudeAPIBotSettings.vue";
@@ -167,6 +168,7 @@ const botSettings = [
   { brand: "mistral", component: MistralBotSettings },
   { brand: "moss", component: MOSSBotSettings },
   { brand: "openaiApi", component: OpenAIAPIBotSettings },
+  { brand: "openRouter", component: OpenRouterAPIBotSettings },
   { brand: "perplexity", component: PerplexityBotSettings },
   { brand: "phind", component: PhindBotSettings },
   { brand: "pi", component: PiBotSettings },

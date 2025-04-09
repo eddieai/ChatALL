@@ -99,6 +99,12 @@ import GitHubAPILlama3170bBot from "./github/GitHubAPILlama3170bBot";
 import GitHubAPILlama31405bBot from "./github/GitHubAPILlama31405bBot";
 import GitHubAPIMistralLargeBot from "./github/GitHubAPIMistralLargeBot";
 import GitHubAPICodestralBot from "./github/GitHubAPICodestralBot";
+import OpenRouterAPIDeepSeekR1Bot from "./openrouter/OpenRouterAPIDeepSeekR1Bot";
+import OpenRouterAPIDeepSeekV3Bot from "./openrouter/OpenRouterAPIDeepSeekV3Bot";
+import OpenRouterAPIGemini20FlashBot from "./openrouter/OpenRouterAPIGemini20FlashBot";
+import OpenRouterAPIGemini20FlashThinkingBot from "./openrouter/OpenRouterAPIGemini20FlashThinkingBot";
+import OpenRouterAPIGemini25ProBot from "./openrouter/OpenRouterAPIGemini25ProBot";
+import OpenRouterAPILlama4MaverickBot from "./openrouter/OpenRouterAPILlama4MaverickBot";
 
 const all = [
   Qihoo360AIBrainBot.getInstance(),
@@ -200,6 +206,12 @@ const all = [
   GitHubAPILlama31405bBot.getInstance(),
   GitHubAPIMistralLargeBot.getInstance(),
   GitHubAPICodestralBot.getInstance(),
+  OpenRouterAPIDeepSeekR1Bot.getInstance(),
+  OpenRouterAPIDeepSeekV3Bot.getInstance(),
+  OpenRouterAPIGemini20FlashBot.getInstance(),
+  OpenRouterAPIGemini20FlashThinkingBot.getInstance(),
+  OpenRouterAPIGemini25ProBot.getInstance(),
+  OpenRouterAPILlama4MaverickBot.getInstance(),
 ];
 
 const disabled = [
@@ -285,6 +297,12 @@ export const botTags = {
     bots.getBotByClassName("GitHubAPILlama31405bBot"),
     bots.getBotByClassName("GitHubAPIMistralLargeBot"),
     bots.getBotByClassName("GitHubAPICodestralBot"),
+    bots.getBotByClassName("OpenRouterAPIDeepSeekR1Bot"),
+    bots.getBotByClassName("OpenRouterAPIDeepSeekV3Bot"),
+    bots.getBotByClassName("OpenRouterAPIGemini20FlashBot"),
+    bots.getBotByClassName("OpenRouterAPIGemini20FlashThinkingBot"),
+    bots.getBotByClassName("OpenRouterAPIGemini25ProBot"),
+    bots.getBotByClassName("OpenRouterAPILlama4MaverickBot"),
   ],
   paid: [
     bots.getBotByClassName("ChatGPT4Bot"),
@@ -369,6 +387,12 @@ export const botTags = {
     bots.getBotByClassName("GitHubAPILlama31405bBot"),
     bots.getBotByClassName("GitHubAPIMistralLargeBot"),
     bots.getBotByClassName("GitHubAPICodestralBot"),
+    bots.getBotByClassName("OpenRouterAPIDeepSeekR1Bot"),
+    bots.getBotByClassName("OpenRouterAPIDeepSeekV3Bot"),
+    bots.getBotByClassName("OpenRouterAPIGemini20FlashBot"),
+    bots.getBotByClassName("OpenRouterAPIGemini20FlashThinkingBot"),
+    bots.getBotByClassName("OpenRouterAPIGemini25ProBot"),
+    bots.getBotByClassName("OpenRouterAPILlama4MaverickBot"),
   ],
   madeInChina: [
     bots.getBotByClassName("Qihoo360AIBrainBot"),

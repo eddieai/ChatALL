@@ -255,6 +255,15 @@
     "Mistral-Large-2411": "Mistral-Large",
     "Codestral-2501": "Codestral"
   },
+  "openRouterApi": {
+    "name": "OpenRouter API",
+    "deepseekdeepseek-r1free": "DeepSeek R1",
+    "deepseekdeepseek-chat-v3-0324free": "DeepSeek V3 0324",
+    "googlegemini-20-flash-expfree": "Gemini 2.0 Flash",
+    "googlegemini-20-flash-thinking-expfree": "Gemini 2.0 Flash Thinking",
+    "googlegemini-25-pro-exp-03-25free": "Gemini 2.5 Pro",
+    "meta-llamallama-4-maverickfree": "Llama 4 Maverick"
+  },
   "poe": {
     "name": "Poe",
     "beaver": "GPT-4",
